@@ -1,0 +1,161 @@
+body {
+	margin: 0px;
+	padding:0px;
+	font-size: 12px;
+}
+.header-up{
+	display: flex;
+	min-height: 48px;
+	background-color: #0075bf;
+	color: #fff;
+	justify-content:center;
+}
+.header-item {
+	display: flex;
+	align-items:center;
+	padding: 0px 10px 0px 10px;
+}
+.cont2{
+	border-right: 1px solid #359cdc;
+	border-left: 1px solid #359cdc;
+
+}
+.header-lang {
+	display: flex;
+	margin-left: 100px;
+}
+.headerlang {
+	border: 1px solid #d5e8f4;
+	margin: 1px;
+	align-self: center;
+	padding: 7px;
+	background-color: #0075bf;
+	color: #fff;
+	font-size: 12px;
+}
+.headerlang:focus{
+	background-color: #ffde00;
+  	outline: none;
+  	color: #000000;
+}
+.fa {
+	font: normal normal normal 16px/1 FontAwesome;
+	padding: 0px 5px 0px 5px;
+}
+
+.headerlogo {
+	display: flex;
+	min-height: 168px;
+	background-color: #f1f1f1;
+	color: #0075bf;
+	font-size: 30px;
+	justify-content:center;
+	align-items:center;
+}
+
+.header-menu {
+	display: flex;
+	min-height: 50px;
+	background-color: #f8f8f8;
+	align-items: stretch;
+	justify-content:center;
+	/*flex-wrap:wrap;*/
+
+}
+a {
+	display: flex;
+	text-decoration: none;
+	color: #1b497e;
+	font-size: 14px;
+}
+a:hover {
+	border-bottom: 5px solid #ffde00;
+}
+.menu-item{
+	display: flex;
+	padding:0px 40px 0px 40px;
+	border-left: 1px solid #e5e5e5;
+	align-items: center;
+}
+.btn-last {
+	border-right: 1px solid #e5e5e5;
+}
+.slider img{
+	width: 100%;
+}
+.slider2-wrap {
+	background-color: #f5f5f5;
+	width: 100%;
+
+	/*display: flex;*/
+	justify-content:center;
+
+}
+.cen-item img{
+		padding:20px;
+		border: 2px solid black;
+		width: 70%;
+	}
+	.cen-item .fa{
+		display: none;
+	}
+.center {
+	display: flex;
+	justify-content:center;
+}
+.cen-item {
+
+}
+.cen-item:hover{
+	background-color: #f5f5f5;
+}
+.info-item-wrap, .text,.footer, .info-item {
+	display: flex;
+	justify-content:center;
+
+}
+.info-item-wrap{
+	flex-wrap: wrap;
+}
+h2 {
+	color:#fed22a;
+}
+.info-wrap{
+width: 100%;
+}
+.info-item {
+	border: 1px solid #e8e8e8;
+	/*padding: 20px;*/
+	flex-basis: 198px;
+	height: 198px;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction:column;
+}
+
+
+
+
+.footer{
+	background-image: url(img/footer.png);
+	min-height: 73px;
+	color: #fff;
+	font-size: 20px;
+	align-items: center;
+	flex-wrap:wrap;
+	
+}
+.info-footer {
+	padding: 0px 60px 0px 60px;
+
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
+.slick-dots{
+        bottom: 10px;
+        list-style-type: circle;
+}
+
+
+
